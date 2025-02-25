@@ -133,8 +133,8 @@ Set the preset mode for a Netatmo climate device. The preset mode must match a p
 
 | Data attribute | Required | Description                                                 |
 | ---------------------- | -------- | ----------------------------------------------------------- |
-| `preset_mode`          | Yes      | Climate preset mode such as Schedule, Away, or Frost Guard. |
-| `end_datetime`         | Yes      | Date & time until which the preset will be active.          |
+| `preset_mode`          | Yes      | Climate preset mode : Schedule, Away, or Frost Guard. |
+| `end_datetime`         | No      | Date and time until which the preset will be active. If left empty, the preset will remain active indefinitely. This setting is not applicable in Schedule mode. |
 
 ### Set temperature with end date & time
 
